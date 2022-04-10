@@ -1,0 +1,19 @@
+{
+  "name": "phaser3-getting-started",
+  "version": "1.0.0",
+  "description": "learning how to use phaser3",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zapfly/phaser3-Getting-Started.git"
+  },
+  "author": "Zapfly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zapfly/phaser3-Getting-Started/issues"
+  },
+  "homepage": "https://github.com/Zapfly/phaser3-Getting-Started#readme"
+}
