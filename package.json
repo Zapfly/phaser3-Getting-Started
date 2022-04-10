@@ -2,9 +2,10 @@
   "name": "phaser3-getting-started",
   "version": "1.0.0",
   "description": "learning how to use phaser3",
-  "main": "./src/index.js",
+  "main": "./src/index",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "http-server ./src -p 3000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Zapfly/phaser3-Getting-Started/issues"
   },
-  "homepage": "https://github.com/Zapfly/phaser3-Getting-Started#readme"
+  "homepage": "https://github.com/Zapfly/phaser3-Getting-Started#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
 }
